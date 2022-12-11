@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 
-interface LaningPageProps {
+interface laningPageProps {
     
 }
  
-const LaningPage: FunctionComponent<LaningPageProps> = () => {
-    return <div></div>;
+const laningPage: FunctionComponent<laningPageProps> = () => {
+    return <div>Hello asshole</div>;
 }
  
-export default LaningPage;
+export default laningPage;

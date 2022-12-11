@@ -5,7 +5,7 @@ interface LogoProps {
 }
  
 const Logo: FunctionComponent<LogoProps> = () => {
-    return <div></div>;
+    return <div>jdjgf</div>;
 }
  
 export default Logo;
