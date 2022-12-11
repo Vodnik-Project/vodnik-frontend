@@ -1,0 +1,12 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    max-width: 1920px;
+    height: 100vh;
+    background-image: url('../../public/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

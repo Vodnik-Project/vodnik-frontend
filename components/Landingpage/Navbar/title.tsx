@@ -5,7 +5,7 @@ interface TitleProps {
 }
  
 const Title: FunctionComponent<TitleProps> = () => {
-    return <div></div>;
+    return <h2>Vodnik</h2>;
 }
  
 export default Title;
