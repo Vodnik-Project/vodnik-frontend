@@ -1,11 +1,19 @@
 import { FunctionComponent } from "react";
 
-interface laningPageProps {
-    
-}
- 
+import style from "./landingPage.module.css";
+import Container from "./Navbar/container";
+
+
+
+
+interface laningPageProps {}
+
 const laningPage: FunctionComponent<laningPageProps> = () => {
-    return <div>Hello asshole</div>;
-}
- 
+  return (
+    <div className={style.wrapper}>
+        <Container />
+    </div>
+  );
+};
+
 export default laningPage;
