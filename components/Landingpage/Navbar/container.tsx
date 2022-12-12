@@ -8,7 +8,7 @@ interface ContainerProps {}
 const Container: FunctionComponent<ContainerProps> = () => {
   return (
     <div className={style.container}>
-      <Logo width={70} height={40} />
+      <Logo />
       <Title />
     </div>
   );
