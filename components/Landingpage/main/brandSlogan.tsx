@@ -1,11 +1,17 @@
 import { FunctionComponent } from "react";
 
-interface BrandSloganProps {
-    
-}
- 
+import style from "./main.module.css";
+
+interface BrandSloganProps {}
+
 const BrandSlogan: FunctionComponent<BrandSloganProps> = () => {
-    return <div></div>;
-}
- 
+  return (
+    <div className={style.brandSloganContainer}>
+      <h1 className={`${style.brandSloganText} ${style.work}`}>Work Together</h1>
+      <h1 className={`${style.brandSloganText} ${style.talk}`}>Talk Together</h1>
+      <h1 className={`${style.brandSloganText} ${style.enjoy}`}>Enjoy Together</h1>
+    </div>
+  );
+};
+
 export default BrandSlogan;

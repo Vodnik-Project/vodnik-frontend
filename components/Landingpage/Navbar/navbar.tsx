@@ -3,9 +3,9 @@ import style from './navbar.module.css'
 import Logo from "./logo";
 import Title from "./title";
 
-interface ContainerProps {}
+interface NavbarProps {}
 
-const Container: FunctionComponent<ContainerProps> = () => {
+const Navbar: FunctionComponent<NavbarProps> = () => {
   return (
     <div className={style.container}>
       <Logo />
@@ -14,4 +14,4 @@ const Container: FunctionComponent<ContainerProps> = () => {
   );
 };
 
-export default Container;
+export default Navbar;
