@@ -3,15 +3,15 @@ import style from './navbar.module.css'
 import Logo from "./logo";
 import Title from "./title";
 
-interface ContainerProps {}
+interface NavbarProps {}
 
-const Container: FunctionComponent<ContainerProps> = () => {
+const Navbar: FunctionComponent<NavbarProps> = () => {
   return (
     <div className={style.container}>
-      <Logo width={70} height={40} />
+      <Logo />
       <Title />
     </div>
   );
 };
 
-export default Container;
+export default Navbar;
