@@ -1,27 +1,51 @@
 .container {
   max-width: 1500px;
-  flex: 1;
+  height: max(90vh, 600px);
+  /* flex: 1; */
   border: 2px solid red;
 }
 
 .section {
+  height: 100%;
   border: 2px solid rgb(0, 0, 0);
 }
 
 .leftDiv {
   width: 50%;
+  height: 100%;
   border: 2px solid rgb(84, 84, 84);
 }
 
 .brandSloganContainer {
-  padding-top: 5rem;
+  height: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+
+.brandSloganText {
+  font-size: 4rem;
+  margin: 0rem 0rem;
+}
+
+.work {
+  align-self: center;
+  margin-right: 7rem;
+}
+
+.talk {
+  align-self: center;
+  letter-spacing: 0.2rem;
+}
+
+.enjoy {
+  align-self: center;
+  margin-left: 7rem;
 }
 
 .container2 {
   display: flex;
+  height: 40%;
   justify-content: space-evenly;
   border: 2px solid rgb(84, 84, 84);
 }
@@ -30,6 +54,10 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.introducingText {
+  font-size: 1.75rem;
 }
 
 .getStartButton {
@@ -42,19 +70,3 @@
   border-radius: 11px;
 }
 
-.brandSloganText {
-    font-size: 4rem;
-    margin: 0rem 2.5rem;
-}
-
-.work {
-    align-self: start;
-}
-
-.talk {
-    align-self: center;
-}
-
-.enjoy {
-    align-self: end;
-}
