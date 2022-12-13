@@ -10,7 +10,7 @@ const IntroducingButton: FunctionComponent<IntroducingButtonProps> = () => {
   return (
     <div className={style.introducing}>
       <Image src={play} alt={"play button"} width={62} />
-      <h2>Introducing</h2>
+      <h2 className={style.introducingText}>Introducing</h2>
     </div>
   );
 };
