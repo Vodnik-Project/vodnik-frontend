@@ -4,6 +4,7 @@ import GetStartButtton from "./getStart";
 import IntroducingButton from "./introducing";
 
 import style from './main.module.css'
+import Shape from "./shape";
 
 interface MainProps {}
 
@@ -18,7 +19,9 @@ const Main: FunctionComponent<MainProps> = () => {
               <IntroducingButton />
             </div>
         </div>
-        <div className={style.rightDiv}></div>
+        <div className={style.rightDiv}>
+          <Shape />
+        </div>
       </section>
     </div>
   );
