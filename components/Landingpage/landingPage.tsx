@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 
 import style from "./landingPage.module.css";
-import Main from "./main";
+import Main from "./main/main_section";
 import Navbar from "./Navbar/navbar";
 
 interface laningPageProps {}
