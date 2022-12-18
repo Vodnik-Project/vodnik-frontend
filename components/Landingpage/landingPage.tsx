@@ -1,8 +1,13 @@
+import Image from "next/image";
 import { FunctionComponent } from "react";
 
 import style from "./landingPage.module.css";
-import Main from "./main";
-import Navbar from "./Navbar/navbar";
+
+import Main from "./main/main_section";
+import Navbar from "./navbar/navbar";
+import AdvantageMain from "./main/advantage_section/main";
+
+import shadow from '../../public/shadow.svg'
 
 interface laningPageProps {}
 
@@ -11,9 +16,9 @@ const laningPage: FunctionComponent<laningPageProps> = () => {
     <div className={style.wrapper}>
       <div className={style.navbarWrapper}>
         <Navbar />
-      </div>
-      <div className={style.navbarWrapper}>
         <Main />
+        <h1 className={style.text}>All you need to <br /> create & track and share tasks</h1>
+        <AdvantageMain />
       </div>
     </div>
   );

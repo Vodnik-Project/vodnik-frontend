@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
-import play from "../../../public/Play.svg";
+import play from "../../../../public/Play.svg";
 
 import style from './main.module.css'
 
