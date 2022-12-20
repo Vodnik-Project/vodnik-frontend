@@ -5,7 +5,7 @@ import style from "./landingPage.module.css";
 
 import Main from "./main/main_section";
 import Navbar from "./navbar/navbar";
-import AdvantageMain from "./main/advantage_section/main";
+import AdvantageMain from "./main/advantage_section";
 
 import shadow from '../../public/shadow.svg'
 
