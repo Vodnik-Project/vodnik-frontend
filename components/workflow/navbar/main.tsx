@@ -1,20 +1,26 @@
 import { FunctionComponent } from "react";
 import Mode from "./mode";
-import Logo from "./logo";
+import Logo from "../../Landingpage/navbar/logo";
 import Search from "./search";
 import User from "./user";
+import Title from "./title";
 
-interface NavbarProps {
-    
-}
- 
+interface NavbarProps {}
+
 const Navbar: FunctionComponent<NavbarProps> = () => {
-    return <div>
+  return (
+    <div>
+      <div>
         <Logo />
+        <Title />
         <Search />
+      </div>
+      <div>
         <Mode />
         <User />
-    </div>;
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Navbar;

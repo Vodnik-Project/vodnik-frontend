@@ -1,11 +1,16 @@
 import { FunctionComponent } from "react";
 
-interface SearchProps {
-    
-}
- 
+import { HiSearch } from "react-icons/hi";
+
+interface SearchProps {}
+
 const Search: FunctionComponent<SearchProps> = () => {
-    return <div></div>;
-}
- 
+  return (
+    <div>
+      <input type="text" />
+      <HiSearch size={50} />
+    </div>
+  );
+};
+
 export default Search;

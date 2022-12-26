@@ -5,9 +5,10 @@ interface MainProps {
     
 }
 
- 
+
 const Main: FunctionComponent<MainProps> = () => {
     return <div>
+        <Navbar />
     </div>;
 }
  
